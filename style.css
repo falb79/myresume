@@ -1,0 +1,152 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+}
+
+
+/*NAVBAR*/
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 99%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 3%, 76%);
+}
+
+.navbar li {
+    float: right;
+}
+
+/*--NAVBAR*/
+
+
+
+/*HOME*/
+
+#home {
+    height: 350px;
+    padding: 100px;
+    background-color: #492057;
+    color: #e3e1e1;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.caption {
+    font-style: italic;
+    font-weight: 200;
+    color: rgb(180, 204, 250);
+
+}
+
+#myimg {
+    border-radius: 70px;
+    height: 120px;
+}
+
+/*--home*/
+
+
+/*my information*/
+
+#education,
+#projects,
+#contact {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+#education {
+    height: 400px;
+
+}
+
+#projects {
+    height: 400px;
+    background-color: #eff2fd;
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #4b35ae;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*--my information*/
+
+
+/*footer*/
+.footer {
+    background-color: #6a6969;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/*--footer*/
+@media (max-width: 576px)or (max-width: 768px) {
+
+    #home,
+    #education,
+    #contact,
+    #projects {
+        height: auto;
+        padding: 50px;
+
+    }
+
+    .navbar a{
+        margin:0px;
+    }
+    
+}
